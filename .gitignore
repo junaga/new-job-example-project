@@ -1,0 +1,10 @@
+*.log
+dist/
+desktop.ini
+.DS_Store
+
+# dotnet, lock files
+**/Debug/net7.0/
+/obj/project.assets.json
+/obj/project.nuget.cache
+/obj/dotnet.csproj.*
