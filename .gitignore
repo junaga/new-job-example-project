@@ -5,7 +5,7 @@ desktop.ini
 
 # dotnet, lock files
 **/Debug/net7.0/
-obj/project.assets.json
-obj/project.nuget.cache
-obj/app.csproj.*
-obj/dotnet.csproj.*
+**/obj/project.assets.json
+**/obj/project.nuget.cache
+**/obj/app.csproj.*
+**/obj/dotnet.csproj.*
