@@ -1,6 +1,8 @@
 # [learn.microsoft.com/docs](https://learn.microsoft.com/en-us/docs/)
 
-There are `.childElementCount` **52 Products** in the **Microsoft Technical Documentation** entry point page.
+<!-- documentation source https://github.com/MicrosoftDocs -->
+
+There are `.childElementCount` **56 Products** in the **Microsoft Technical Documentation** entry point page.
 
 ## [dotnet.microsoft.com](https://dotnet.microsoft.com/en-us/)
 
@@ -17,6 +19,10 @@ C# is a C-like, object oriented, "component oriented", strongly generically type
 C# is mostly compiled into assembly `.dll` modules, which run on .NET. There is a [query expression syntax](https://learn.microsoft.com/en-us/dotnet/csharp/linq/) in C# to write SQL and others in-code.
 
 > In addition to the runtime services, .NET also includes extensive libraries. The libraries include everything from file input and output to string manipulation to XML parsing, to web application frameworks to Windows Forms controls. The typical C# application uses the .NET class library extensively to handle common "plumbing" chores.
+
+## dotnet MAUI
+
+A cross-platform, UI framework and component library for dotnet, forked from Xamarin.Forms.
 
 ## Adaptive Cards
 
@@ -60,9 +66,13 @@ Dynamics 365 is the Microsoft _cloud-first_ [Enterprise Resource Planner](https:
 - [HR](https://en.wikipedia.org/wiki/Human_resources)
 - [Accounting](https://en.wikipedia.org/wiki/Accounting) (Dynamics 365 Finance)
 
+### Dynamics 365 Customer Service
+
+### Dynamics 365 Sales
+
 ## Java
 
-_Not even remotly a Microsoft Product._ Microsoft has bundeled the documentation on how to get started with Java dev, although it is platform specific everytime (Azure, GitHub, Visual Studio).
+_Not even remotly a Microsoft Product._
 
 ## [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/products-apps-services)
 
@@ -73,6 +83,10 @@ It includes Word, Excel, Powerpoint and Outlook, but also lot's of others, moder
 ## Microsoft Advertising
 
 You mean like, on bing.com?
+
+## Microsoft Cloud
+
+Links for Azure, GitHub, M365, Power Platform, D365 and more
 
 ## Microsoft Compliance
 
@@ -87,7 +101,7 @@ Previously known as Windows Defender. All Microsoft security related lists, bots
 
 ## Microsoft Edge
 
-The [chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser)) based Microsoft Web Browser.
+The [chromium](<https://en.wikipedia.org/wiki/Chromium_(web_browser)>) based Microsoft Web Browser.
 
 ## Microsoft Entra
 
@@ -99,7 +113,7 @@ Data tools for engineers and scientists.
 
 ## [graph.microsoft.com](https://graph.microsoft.com)
 
-Microsoft 365 HTTP API.
+Microsoft 365 OAuth 2 HTTP API, libraries available.
 
 ## Microsoft industry documentation and resources
 
@@ -136,3 +150,107 @@ Documentation for Hackers.
 ## Microsoft Stream
 
 Microsoft Sharepoint based, company internal, YouTube?
+
+## Microsoft Supply Chain Center
+
+Used to integrate 3rd party ERP and supply chain systems.
+
+## Microsoft Surface
+
+Windows PC, a powerful tablet-laptop.
+
+## Microsoft Teams
+
+Social media app, replacing Skype and others.
+
+## Microsoft Typography
+
+Library of Microsoft fonts, the OpenType specification and some documentation on how to develop a font.
+
+## Microsoft Viva
+
+Basically the new Microsoft Sharepoint, it's web-first and based on Microsoft Teams.
+
+## OData
+
+A protocol on top of HTTP like GraphQL.
+
+## Open Specifications
+
+Technical specifications on Microsoft products.
+
+## OpenAPI
+
+fka Swagger. A protocol on top of HTTP, like GraphQL. But this one is managed by the Linux Foundation.
+
+## Partner Center
+
+3rd party companies that are certified by Microsoft to sell, deploy, and support Microsoft products and services.
+
+## PlayReady
+
+A DRM service. Microsoft is fighting the internet pirates too.
+
+## Power Apps
+
+low-code app development, with data from all over Microsoft and on-premises databases.
+
+## Power Automate
+
+Low-code platform to do scripting accross Microsoft and some others.
+
+## Power BI
+
+Low-code data visualization.
+
+## Power Pages
+
+Low-code website builder.
+
+## Power Platform
+
+Umbrella term for all "Power " apps.
+
+## Power Query M
+
+Low-code query language.
+
+## Power Virtual Agents
+
+Build AI chatbots with low-code.
+
+## PowerShell
+
+The second generation Windows shell.
+
+## Semantic Kernel
+
+Library for OpenAI APIs and other LLMs.
+
+## SQL Server
+
+Database that runs Transact-SQL, a SQL superset.
+
+## Sysinternals
+
+Random windows admin tools.
+
+## [vcpkg.io](https://vcpkg.io/en/packages)
+
+Package manager for C++.
+
+## Visual Studio
+
+A Windows OS only code editor app, or IDE.
+
+## [appcenter.ms](https://appcenter.ms/)
+
+Microsoft version of [Firebase](https://firebase.google.com/).
+
+## Windows
+
+Windows
+
+## Windows Server
+
+uhh
