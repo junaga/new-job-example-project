@@ -1,7 +1,73 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+@if (file != null)
+{
+<i class="file-name">@file.Name</i>
+<p class="file">
+  @text
+</p>
 
-<h1>Hello, world!</h1>
+<ul class="file-props"> 
+  <li>
+    @if (@file.ContentType != null)
+    { @file.ContentType } else { <span>text</span> }
+  </li>
+  •
+  <li>@file.LastModified.LocalDateTime.ToString()</li>
+  •
+  <li>@file.Size bytes</li>
+</ul>
+}
+else {
+  <InputFile OnChange="@Read" />
+}
 
-Welcome to your new app.
+@code {
+  public String? text;
+  private IBrowserFile? file;
+
+  async private void Read(InputFileChangeEventArgs uploadEvent)
+  {
+    file = uploadEvent.File;
+    var stream = file.OpenReadStream();
+    text = await new StreamReader(stream).ReadToEndAsync();
+    base.StateHasChanged();
+  }
+}
+
+<style>
+  p {
+    margin: 0px;
+  }
+  li {
+    list-style: none;
+  }
+
+  .file {
+    max-width: 80ch;
+    padding: 10px;
+    font-family: monospace;
+    white-space: pre-wrap;5
+
+    background-color: #f2f2f2;
+    border: 1px solid gray;
+    border-radius: 4px;
+
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  }
+  .file-name {
+    margin-left: 2ch;
+    line-height: 0px;
+  }
+  .file-props {
+    margin-top: 4px;
+    max-width: max-content;
+    
+    gap: 2ch;
+    grid-auto-flow: column;
+    display: grid;
+  }
+  @* .file-props > * {
+    
+  } *@
+</style>
